@@ -328,7 +328,7 @@ button:focus {
     content: none;
   }
   .card {
-    min-height: 40px;
+    min-height: 79px;
     width: 100%;
     border: 1px solid #ccc9c9;
   }
@@ -375,6 +375,10 @@ button:focus {
   input {
     width: 220px;
     height: 35px;
+  }
+  input[type="text"] {
+    width: 252px;
+    height: 43px;
   }
   #currentHeading {
     font-size: 28px;
