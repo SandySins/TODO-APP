@@ -332,7 +332,7 @@ button:focus {
     width: 100%;
     border: 1px solid #ccc9c9;
   }
-  .card-item {
+  ul.hard {
     display: none;
   }
   .card-heading {
@@ -388,11 +388,17 @@ button:focus {
   display:none;
 }
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 900px) {
   .heading-bold1::before,
   .heading-bold1::after{
     display:none;
   }
+  .heading-bold1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
   #currentHeading {
     font-size: 28px;
 }

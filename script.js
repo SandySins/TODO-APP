@@ -44,7 +44,7 @@ if(!input1.value==""){
     arr.nextElementSibling.insertAdjacentHTML('beforeend',`<li class="card-item" onclick="markDone(this)">${input1.value}</li>`)
     ul.innerHTML=arr.nextElementSibling.innerHTML;
   }else{
-    arr.parentElement.insertAdjacentHTML('beforeend',`<ul><li class="card-item" onclick="markDone(this)">${input1.value}</li></ul>`)
+    arr.parentElement.insertAdjacentHTML('beforeend',`<ul  class="hard"><li class="card-item" onclick="markDone(this)">${input1.value}</li></ul>`)
     ul.innerHTML=arr.nextElementSibling.innerHTML;
   }
  
