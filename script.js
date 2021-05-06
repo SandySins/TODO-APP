@@ -31,7 +31,7 @@ if(!input.value==""){
   pop.classList.remove('active')
   blur.classList.remove('active')
   cardy.insertAdjacentHTML('beforeend', `<div class='card'><p class='card-heading' onclick='toggleAddItem(this)
-  '>${input.value}</p>`);
+  '>${input.value}</p></div>`);
   input.value="";
 }
 })
